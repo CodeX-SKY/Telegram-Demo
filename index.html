@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Telegram Developed By - AbdulKhaliq</title>
+    <title>Telegram Demo</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="Images/contact/Telegram_logo.svg.webp" type="image/x-icon">
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+    <!-- Style -->
     <link rel="stylesheet" href="Style/style.css">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="all">
@@ -31,7 +41,7 @@
                     <p class="flt">groups</p>
                 </div>                
                 <div class="flb flb4">
-                    <i class="flc fa-duotone fa-bullhorn"></i>
+                    <i class="flc fas fa-bullhorn"></i>
                     <p class="flt">channels</p>
                 </div>                
                 <div class="flb flb5">
@@ -44,42 +54,43 @@
                     <div class="user-top">
                         <img class="user-img" src="Images/User/user_2.jpg">
                         <div class="user-top-mini-box">
-                            <p class="user-name">Abdulxoliq</p>
-                            <p class="status-emodji">Set emodji status</p>
+                            <p class="user-name">Abdul Khaliq <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="status-emodji">+1 (802) 801-8648</p>
                         </div>
                     </div>
-                    <div class="user-add">
+                    <!-- <div class="user-add">
                         <p class="add-txt">+</p>
                         <p class="add-txt2">Add Account</p>
-                    </div>
+                    </div> -->
                     <div class="user-menus">
                         <div class="user-more">
-                            <i class="usc fa-solid fa-user-group"></i>
+                            <i class="usc fa-regular fa-user-group"></i>
                             <p class="user-menu">new group</p>
                         </div>
                         <div class="user-more">
-                            <i class="usc fa-duotone fa-bullhorn"></i>
+                            <i class="usc fa-regular fa-bullhorn"></i>
                             <p class="user-menu">new channel</p>
                         </div>
                         <div class="user-more">
-                            <i class="usc fa-solid fa-user"></i>
+                            <i class="usc fa-regular fa-user"></i>
                             <p class="user-menu">contacts</p>
                         </div>
                         <div class="user-more">
-                            <i class="usc fa-solid fa-user"></i>
+                            <i class="usc fa-regular fa-phone"></i>
                             <p class="user-menu">calls</p>
                         </div>
                         <div class="user-more">
-                            <i class="usc fa-solid fa-user"></i>
+                            <i class="usc fa-regular fa-bookmark"></i>
                             <p class="user-menu">saved massages</p>
                         </div>
                         <div class="user-more">
-                            <i class="usc fa-solid fa-bars"></i>
+                            <i class="usc fa-regular fa-gear"></i>
                             <p class="user-menu">settiges</p>
                         </div>
                         <div class="user-more-night">
                             <div class="usdf">
-                                <i class="usc fa-solid fa-moon"></i>
+                                <!-- <i class="usc fa-regularfa-moon"></i> -->
+                                <i class="usc fa-solid fa-moon-over-sun"></i>
                                 <p class="user-menu">night mode</p>
                             </div>
                             <div class="us-on-off">
@@ -97,126 +108,476 @@
                     <input type="text" class="search-contact" value="Search">
                 </div>
                 <div class="contacts">
-                    <div class="contact cto1">
-                        <img class="ct-img" src="Images/contact/Chris-Evans.jpg">
-                        <div class="ct-right">
-                            <p class="ct-name">Chris Evans</p>
-                            <p class="ct-text">Good morning dear friend...</p>
+                    <div class="fade-contact" data-aos="fade-up">
+                        <div class="contact cto0">
+                            <img class="ct-img" src="Images/contact/hacker 1.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Hacker <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Good morning dear friend...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto1">
+                            <img class="ct-img" src="Images/contact/hathacker.avif">
+                            <div class="ct-right">
+                                <p class="ct-name">Frontend 16:00-18:00 (toq kunlari)</p>
+                                <p class="ct-text">Best ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto2">
+                            <img class="ct-img" src="Images/contact/uzmovil.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Uzmovi (Rasmiy)</p>
+                                <p class="ct-text">Most ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto3">
+                            <img class="ct-img" src="Images/contact/motiv.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Motivation 4B <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Best ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto4">
+                            <img class="ct-img" src="Images/contact/twitter.webp">
+                            <div class="ct-right">
+                                <p class="ct-name">X News</p>
+                                <p class="ct-text">Good morning dear friend...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto5">
+                            <img class="ct-img" src="Images/contact/elon-musk.webp">
+                            <div class="ct-right">
+                                <p class="ct-name">Elon Musk <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Good morning dear friend...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto6">
+                            <img class="ct-img" src="Images/contact/Robert-Downey.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Robert Downey <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Lorem ipsum dolor sit friend ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto7">
+                            <img class="ct-img" src="Images/contact/Jake-Gyllenhal.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Jake Gyllenhal <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Best ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto8">
+                            <img class="ct-img" src="Images/contact/Chris-Hemsworth.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Chris Hemsworth <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Most ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto9">
+                            <img class="ct-img" src="Images/contact/ytsaver.png">
+                            <div class="ct-right">
+                                <p class="ct-name">YouTube Saver</p>
+                                <p class="ct-text">Lorem ipsum dolor sit friend ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto10">
+                            <img class="ct-img" src="https://static7.tgstat.ru/channels/_0/3b/3bdc7810ebf4c3de0646923f39267695.jpg">
+                            <div class="ct-right">
+                                <p class="ct-name">Saved Massages</p>
+                                <p class="ct-text">Most ipsum dolor sit ...</p>
+                            </div>
+                        </div>
+                        <div class="contact cto11">
+                            <img class="ct-img" src="Images/contact/Telegram_logo.svg.webp">
+                            <div class="ct-right">
+                                <p class="ct-name">Telegram <img class="check" src="Images/contact/check.png" alt="check"></p>
+                                <p class="ct-text">Good morning dear friend...</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact cto2">
-                        <img class="ct-img" src="Images/contact/Robert-Downey.jpg">
-                        <div class="ct-right">
-                            <p class="ct-name">Robert Downey</p>
-                            <p class="ct-text">Lorem ipsum dolor sit friend ...</p>
-                        </div>
-                    </div>
-                    <div class="contact cto3">
-                        <img class="ct-img" src="Images/contact/Jake-Gyllenhal.jpg">
-                        <div class="ct-right">
-                            <p class="ct-name">Jake Gyllenhal</p>
-                            <p class="ct-text">Best ipsum dolor sit ...</p>
-                        </div>
-                    </div>
-                    <div class="contact cto4">
-                        <img class="ct-img" src="Images/contact/Chris-Hemsworth.jpg">
-                        <div class="ct-right">
-                            <p class="ct-name">Chris Hemsworth</p>
-                            <p class="ct-text">Most ipsum dolor sit ...</p>
-                        </div>
-                    </div>
-
-                    <!-- Clone -->
                 </div>
             </div>
             <div class="chat-open">
-                <div class="chat-cto1 chat-contact">
-                    <div class="chat-top-nm">
-                        <p class="chat-name">Chris Evans</p>
-                        <p class="chat-onf">3 hours later</p>
-                    </div>
-                    <div class="chat-texts">
-                        <p class="chat-time">12-august</p>
-                        <p class="chat-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
-                        <p class="chat-time">15-august</p>
-                        <p class="chat-text">Lorem ipsum dolor sit.</p>
-                        <p class="chat-text chat-text2">Lorem ipsum </p>
-                        <p class="chat-time">18-august</p>
-                        <p class="chat-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
-                        <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
-                        <p class="chat-time">28-august</p>
-                        <p class="chat-text">Good morning dear friend.</p>
-                        <p class="chat-text chat-text2">Good morning</p>
-                    </div>
-                    <div class="ct-write">
-                        <img class="icon1" src="Images/icon1.png">
-                        <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
-                        <img class="icon2" src="Images/icon2.png">
-                    </div>
-                </div>
-                <div class="chat-cto2 chat-contact">
-                    <div class="chat-top-nm">
-                        <p class="chat-name">Robert Downey</p>
-                        <p class="chat-onf">1 week later</p>
-                    </div>
-                    <div class="chat-texts">
-                        <p class="chat-time">6-march</p>
-                        <p class="chat-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="chat-time">14-june</p>
-                        <p class="chat-text">Lorem ipsum dolor sit.</p>
-                        <p class="chat-time">23-july</p>
-                        <p class="chat-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
-                        <p class="chat-time">21-august</p>
-                        <p class="chat-text">Telegram new version uptade features: <span>More</span></p>
-                    </div>
-                    <div class="ct-write">
-                        <img class="icon1" src="Images/icon1.png">
-                        <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
-                        <img class="icon2" src="Images/icon2.png">
-                    </div>
-                </div>
-                <div class="chat-cto3 chat-contact">
-                    <div class="chat-top-nm">
-                        <p class="chat-name">Jake Gyllenhal</p>
-                        <p class="chat-onf">21:04 online</p>
-                    </div>
-                    <div class="chat-texts">
-                        <p class="chat-time">18-september</p>
-                        <p class="chat-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="chat-text">Lorem ipsum dolor sit.</p>
-                        <p class="chat-time">21-august</p>
-                        <p class="chat-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
-                        <p class="chat-text">Best coding lifehack : <span>Watch Tutorial</span></p>
-                        <p class="chat-time">22-august</p>
-                        <p class="chat-text chat-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit ?</p>
-                        <p class="chat-text chat-text2">Lorem ipsum dolor.</p>
-                    </div>
-                    <div class="ct-write">
-                        <img class="icon1" src="Images/icon1.png">
-                        <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
-                        <img class="icon2" src="Images/icon2.png">
+                <div class="chat-cto chat-cto1">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Hacker <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">last yesterday 04:18 rm</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">12-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-time">15-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-time">18-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-time">28-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
                     </div>
                 </div>
-                <div class="chat-cto4 chat-contact">
-                    <div class="chat-top-nm">
-                        <p class="chat-name">Chris Hemsworth</p>
-                        <p class="chat-onf">5 minute later</p>
+                <div class="chat-cto chat-cto2">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Frontend 16:00-18:00 (Toq kunlar)</p>
+                            <p class="chat-onf">23 members</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">6-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-july</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-time">3-september</p>
+                            <p class="chat-text chat-text1">Telegram features: <span>More</span></p>
+                            <p class="chat-text chat-text2">Ok bro</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
                     </div>
-                    <div class="chat-texts">
-                        <p class="chat-time">18-march</p>
-                        <p class="chat-text">Lorem ipsum dolor sit amet consectetur.</p>
-                        <p class="chat-text">Lorem ipsum dolor sit.</p>
-                        <p class="chat-time">23-june</p>
-                        <p class="chat-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
-                        <p class="chat-text">Most powerfull design web sites rating: <span>top-sites.com</span></p>
-                        <p class="chat-text chat-text2">WOW !</p>
-                        <p class="chat-text chat-text2">Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="chat-cto chat-cto3">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Uzmovi (Rasmiy)</p>
+                            <p class="chat-onf">174,600 subscribers</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-september</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">21-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Best coding lifehack : <span>Watch Tutorial</span></p>
+                            <p class="chat-time">22-august</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit ?</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
                     </div>
-                    <div class="ct-write">
-                        <img class="icon1" src="Images/icon1.png">
-                        <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
-                        <img class="icon2" src="Images/icon2.png">
+                </div>
+                <div class="chat-cto chat-cto4">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Motivation 4B <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">1,4 million subscribers <img class="check" src="Images/contact/check.png" alt="check"></p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-june</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Most powerfull design web sites rating: <span>top-sites.com</span></p>
+                            <p class="chat-text chat-text2">WOW !</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-cto chat-cto5">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Elon Musk <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">last day 3 hours ago</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">12-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-time">15-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-time">18-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-time">28-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto6">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Robert Downey <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">last month 1 week ago</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">6-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-time">14-june</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-july</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-time">21-august</p>
+                            <p class="chat-text chat-text1">Telegram new version uptade features: <span>More</span></p>
+                            <p class="chat-text chat-text2">Wow ! Ok thank you ...</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto7">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Jake Gyllenhal <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">last day 21:04 online</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-september</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">21-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Best coding lifehack : <span>Watch Tutorial</span></p>
+                            <p class="chat-time">22-august</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit ?</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto8">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Chris Hemsworth <img class="check" src="Images/contact/check.png" alt="check"></p>
+                            <p class="chat-onf">last hour 5 minute later</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-june</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Most powerfull design web sites rating: <span>top-sites.com</span></p>
+                            <p class="chat-text chat-text2">WOW !</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-cto chat-cto9">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">YouTube Saver</p>
+                            <p class="chat-onf">bot</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">12-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-time">15-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-time">18-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-time">28-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto10">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Saved Massages</p>
+                            <p class="chat-onf">last month 2 week ago</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">6-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-time">14-june</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor !</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum </p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor, sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Good morning dear friend.</p>
+                            <p class="chat-text chat-text2">Good morning</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-july</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-time">21-august</p>
+                            <p class="chat-text chat-text1">Telegram new version uptade features: <span>More</span></p>
+                            <p class="chat-text chat-text2">Wow ! Ok thank you ...</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto11">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Telegram</p>
+                            <p class="chat-onf">bot</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-september</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">21-august</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Best coding lifehack : <span>Watch Tutorial</span></p>
+                            <p class="chat-time">22-august</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit ?</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-cto chat-cto12">
+                    <div class="chat-contact">
+                        <div class="chat-top-nm">
+                            <p class="chat-name">Chris Hemsworth </p>
+                            <p class="chat-onf">last day 3 hour ago</p>
+                        </div>
+                        <div class="chat-texts">
+                            <p class="chat-time">18-march</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit amet consectetur.</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor sit.</p>
+                            <p class="chat-time">23-june</p>
+                            <p class="chat-text chat-text1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ducimus tempora consectetur id! Explicabo at eius atque ex, sapiente temporibus deleniti quae, quibusdam voluptas iste repudiandae saepe nihil distinctio accusamus magnam eligendi. Deleniti, nesciunt.</p>
+                            <p class="chat-text chat-text1">Most powerfull design web sites rating: <span>top-sites.com</span></p>
+                            <p class="chat-text chat-text2">WOW !</p>
+                            <p class="chat-text chat-text2">Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div class="ct-write">
+                            <img class="icon1" src="Images/icon1.png">
+                            <input class="ct-wr-inp" type="text" placeholder="Write a message...">                            
+                            <img class="icon2" src="Images/icon2.png">
+                        </div>
                     </div>
                 </div>
                 <p class="select-chat-more">Select a chat to start messaging</p>
@@ -226,7 +587,13 @@
 
 
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="JavaSript/main.js"></script>
-    <script src="JavaSript/private.js"></script>
+    <!-- <script src="JavaSript/private.js"></script> -->
 </body>
 </html>
+
+    <!-- <title>Telegram Developed By - AbdulKhaliq</title> -->

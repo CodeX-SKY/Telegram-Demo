@@ -129,71 +129,71 @@ usmn.addEventListener('click' , function(){
 
 
 // Contact click to open chat
-let cto1 = document.querySelector(".cto1");
-let cto2 = document.querySelector(".cto2");
-let cto3 = document.querySelector(".cto3");
-let cto4 = document.querySelector(".cto4");
+let cto5 = document.querySelector(".cto5");
+let cto6 = document.querySelector(".cto6");
+let cto7 = document.querySelector(".cto7");
+let cto8 = document.querySelector(".cto8");
 
 
-let chat_cto1 = document.querySelector(".chat-cto1");
-let chat_cto2 = document.querySelector(".chat-cto2");
-let chat_cto3 = document.querySelector(".chat-cto3");
-let chat_cto4 = document.querySelector(".chat-cto4");
+let chat_cto5 = document.querySelector(".chat-cto5");
+let chat_cto6 = document.querySelector(".chat-cto6");
+let chat_cto7 = document.querySelector(".chat-cto7");
+let chat_cto8 = document.querySelector(".chat-cto8");
 let select_chat_more = document.querySelector(".select-chat-more");
 
-cto1.addEventListener('click', function(){
-    if(chat_cto1.classList.contains("chat-ctos")){
-        chat_cto1.classList.add("chat-ctos");
+cto5.addEventListener('click', function(){
+    if(chat_cto5.classList.contains("chat-ctos")){
+        chat_cto5.classList.add("chat-ctos");
         console.log("All ready selected Contact");
     } else {
-        chat_cto1.classList.add("chat-ctos");
+        chat_cto5.classList.add("chat-ctos");
         console.log("Selected Contact and Open Chat");
     }
 
     select_chat_more.classList.add("remove");
-    chat_cto2.classList.remove("chat-ctos");
-    chat_cto3.classList.remove("chat-ctos");
-    chat_cto4.classList.remove("chat-ctos");
+    chat_cto6.classList.remove("chat-ctos");
+    chat_cto7.classList.remove("chat-ctos");
+    chat_cto8.classList.remove("chat-ctos");
 })
-cto2.addEventListener('click', function(){
-    if(chat_cto2.classList.contains("chat-ctos")){
-        chat_cto2.classList.add("chat-ctos");
+cto6.addEventListener('click', function(){
+    if(chat_cto6.classList.contains("chat-ctos")){
+        chat_cto6.classList.add("chat-ctos");
         console.log("All ready selected Contact");
     } else {
-        chat_cto2.classList.add("chat-ctos");
+        chat_cto6.classList.add("chat-ctos");
         console.log("Selected Contact and Open Chat");
     }
 
     select_chat_more.classList.add("remove");
-    chat_cto1.classList.remove("chat-ctos");
-    chat_cto3.classList.remove("chat-ctos");
-    chat_cto4.classList.remove("chat-ctos");
+    chat_cto5.classList.remove("chat-ctos");
+    chat_cto7.classList.remove("chat-ctos");
+    chat_cto8.classList.remove("chat-ctos");
 })
-cto3.addEventListener('click', function(){
-    if(chat_cto3.classList.contains("chat-ctos")){
-        chat_cto3.classList.add("chat-ctos");
+cto7.addEventListener('click', function(){
+    if(chat_cto7.classList.contains("chat-ctos")){
+        chat_cto7.classList.add("chat-ctos");
         console.log("All ready selected Contact");
     } else {
-        chat_cto3.classList.add("chat-ctos");
+        chat_cto7.classList.add("chat-ctos");
         console.log("Selected Contact and Open Chat");
     }
 
     select_chat_more.classList.add("remove");
-    chat_cto1.classList.remove("chat-ctos");
-    chat_cto2.classList.remove("chat-ctos");
-    chat_cto4.classList.remove("chat-ctos");
+    chat_cto5.classList.remove("chat-ctos");
+    chat_cto6.classList.remove("chat-ctos");
+    chat_cto8.classList.remove("chat-ctos");
 })
-cto4.addEventListener('click', function(){
-    if(chat_cto4.classList.contains("chat-ctos")){
-        chat_cto4.classList.add("chat-ctos");
+cto8.addEventListener('click', function(){
+    if(chat_cto8.classList.contains("chat-ctos")){
+        chat_cto8.classList.add("chat-ctos");
         console.log("All ready selected Contact");
     } else {
-        chat_cto4.classList.add("chat-ctos");
+        chat_cto8.classList.add("chat-ctos");
         console.log("Selected Contact and Open Chat");
     }
 
     select_chat_more.classList.add("remove");
-    chat_cto1.classList.remove("chat-ctos");
-    chat_cto2.classList.remove("chat-ctos");
-    chat_cto3.classList.remove("chat-ctos");
+    chat_cto5.classList.remove("chat-ctos");
+    chat_cto6.classList.remove("chat-ctos");
+    chat_cto7.classList.remove("chat-ctos");
 })
