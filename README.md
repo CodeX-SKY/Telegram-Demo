@@ -1,3 +1,7 @@
-A small design of Telegram to improve the working experience. This site was created using HTML, CSS, JavaScript and more libs...
+Title: Telegram Demo Design
 
-Web Site Link : https://codex-sky.github.io/Telegram-Demo/
+Description: A small design of Telegram to improve the working experience.
+
+Used: Built using HTML, CSS, JavaScript and other libraries...
+
+Website link: https://codex-sky.github.io/Telegram-Demo/
